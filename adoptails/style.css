@@ -1,0 +1,26 @@
+.cabecalho {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background-color: #f0e6b8;
+
+    border-bottom: 1px solid #bf0025;
+}
+
+body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #fff7d7;
+      align-items: center;
+}
+
+button {
+    background-color: #bf0025;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
