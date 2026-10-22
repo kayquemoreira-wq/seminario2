@@ -14,8 +14,13 @@ body {
 }
 
 button {
+    border-radius: 10px;
+    padding: 10px 30px;
     background-color: #bf0025;
+    color: aliceblue;
+    border: none;
 }
+
 
 .logo {
     width: 200px;
@@ -24,3 +29,9 @@ button {
     display: flex;
     transition: transform 0.3s ease-in-out;
 }
+
+img {
+    height: 50px;
+    object-fit: cover;
+}
+
